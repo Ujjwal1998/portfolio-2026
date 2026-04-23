@@ -1,4 +1,4 @@
-export const revalidate = 30;
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const apiKey = process.env.LASTFM_API_KEY;

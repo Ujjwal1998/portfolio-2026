@@ -1,4 +1,4 @@
-export const revalidate = 300;
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
   const apiKey = process.env.STEAM_API_KEY;
