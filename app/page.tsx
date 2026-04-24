@@ -15,6 +15,27 @@ const TAB_THEMES: Record<TabType, string> = {
   projects: "2",
 };
 
+function renderParagraph(text: string) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
+  return parts.map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (match) {
+      return (
+        <a
+          key={i}
+          href={match[2]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent underline decoration-dotted hover:decoration-solid transition-all"
+        >
+          {match[1]}
+        </a>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
+
 const ExternalLinkIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <line x1="7" y1="17" x2="17" y2="7" />
@@ -121,7 +142,7 @@ export default function Home() {
             Ujjwal Talwar
           </h1>
           <p className="text-text-muted text-xl">
-            Network Production Engineer · London
+            Learner · Software Engineer · London
           </p>
         </header>
 
@@ -159,7 +180,7 @@ export default function Home() {
             >
               <div className="space-y-4 text-foreground leading-relaxed">
                 {about.paragraphs.map((paragraph, index) => (
-                  <p key={index}>{paragraph}</p>
+                  <p key={index}>{renderParagraph(paragraph)}</p>
                 ))}
               </div>
             </section>
@@ -178,7 +199,11 @@ export default function Home() {
                       <span className="text-sm text-text-muted font-mono">{job.period}</span>
                     </div>
                     <p className="text-accent mb-2">{job.company}</p>
-                    <p className="text-text-muted leading-relaxed">{job.description}</p>
+                    <div className="text-text-muted leading-relaxed space-y-2">
+                      {job.description.map((line, i) => (
+                        <p key={i}>{line}</p>
+                      ))}
+                    </div>
                   </div>
                 ))}
               </div>
@@ -232,10 +257,10 @@ export default function Home() {
         <footer className="pt-8 border-t border-card-border">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div className="flex gap-6">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors inline-flex items-center gap-1">
+              <a href="https://www.linkedin.com/in/ujjwal-talwar/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors inline-flex items-center gap-1">
                 LinkedIn <ExternalLinkIcon />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors inline-flex items-center gap-1">
+              <a href="https://github.com/Ujjwal1998" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors inline-flex items-center gap-1">
                 GitHub <ExternalLinkIcon />
               </a>
             </div>

@@ -15,7 +15,7 @@ const tabs: { id: TabType; label: string }[] = [
 
 export default function TabNav({ activeTab, onTabChange }: TabNavProps) {
   return (
-    <nav className="flex gap-6 text-sm border-b border-card-border pb-4">
+    <nav className="flex gap-6 text-base border-b border-card-border pb-4">
       {tabs.map((tab) => (
         <button
           key={tab.id}

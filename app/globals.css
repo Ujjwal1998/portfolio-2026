@@ -61,7 +61,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-roboto), sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.6;
   transition: background-color 0.5s ease, color 0.5s ease;
   overscroll-behavior: none;
