@@ -9,7 +9,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Ujjwal Talwar | Network Production Engineer",
+  title: "Ujjwal Talwar",
   description: "Network Production Engineer based in London, focused on building reliable, scalable infrastructure.",
 };
 
