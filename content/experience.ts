@@ -4,7 +4,7 @@ export const experience = [
     company: "Meta",
     period: "2025 - Present",
     description: [
-      "I'm responsible for maintaining and improving the backbone infrastructure, ensure new products are deployed to production safely and efficiently.",
+      "Maintain and improve backbone network infrastructure, ensuring new products are deployed to production safely and reliably at scale.",
     ],
   },
   {
@@ -12,25 +12,21 @@ export const experience = [
     company: "Cisco Systems",
     period: "2023 — 2025",
     description: [
-      "Lead large-scale deliveries by spearheading the scoping phase, prioritizing requirements, and defining objectives, timelines, and milestones.",
-      "Worked on LevelUp! — a firewall upgrade programme. Built a web application to ensure smooth operation and satisfaction of all stakeholders. The tool is currently in production completing 100+ monthly upgrades.",
-      "Improved and added multiple accessibility features to the UI, integrated the tool with multiple external services to fetch new upgrade requests, worked on the internal logic, error handling and logging.",
-      "Contributed to a hackathon as a Tech Advisor and Panel Member for UI/UX.",
-      "Worked on a hackathon project that leverages RAG and LLM to automate the creation of a deliverable.",
-      "Tools and Technologies: JavaScript, Python, MongoDB, React.js, Langchain",
+      "Led large-scale deliveries end-to-end — scoping, requirements prioritization, and defining objectives, timelines, and milestones.",
+      "Built and shipped a web application currently in production handling 100+ operations monthly, integrating with multiple external services.",
+      "Prototyped a RAG and LLM-based system to automate generation of operational deliverables.",
+      "Tools: JavaScript, Python, MongoDB, React.js, Langchain",
     ],
   },
   {
-    title: "Consulting Engineer (Automation and Security)",
+    title: "Consulting Engineer",
     company: "Cisco Systems",
     period: "2020 — 2023",
     description: [
-      "Automated and improved the quality of an existing service used for analyzing security aspects of customer networks. Mapped existing checks and best practices to MITRE ATT&CK framework and Cisco Security Control Framework.",
-      "Developed and deployed a full-scale Learning Management System for a National Forensic and Science University, India that boarded 100+ students and 10+ faculty members. This LMS system was recognized by the Hon'ble Home Minister of India. The LMS consisted of cyber security courses that allowed the participants to interact as a Red or Blue team.",
-      "Enhanced customer delivery by automating workflow to decrease time taken by ~30%.",
-      "Lead the engagement of a MVP of a resource and workforce planning tool, to help the management improve their hiring and attrition process.",
-      "Developed a modular Webex Bot to survey Cisco Customer Experience, which is being used by 200+ employees to capture employee engagement.",
-      "Tools and Technologies: JavaScript, Python, MySQL, React.js, Django, Flask, FastAPI, Celery, Webex API, Linux",
+      "Automated security analysis tooling and mapped findings to MITRE ATT&CK framework, reducing workflow time by ~30%.",
+      "Designed and deployed a full-scale Learning Management System serving 100+ students and faculty, recognized by a senior government official.",
+      "Built an internal bot adopted by 200+ employees to collect and surface engagement data across the organization.",
+      "Tools: JavaScript, Python, MySQL, React.js, Django, Flask, FastAPI, Linux",
     ],
   },
 ];
