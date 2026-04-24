@@ -142,7 +142,7 @@ export default function Home() {
             Ujjwal Talwar
           </h1>
           <p className="text-text-muted text-xl">
-            Learner · Software Engineer · London
+            Software Engineer · Life-long learner ·  London
           </p>
         </header>
 
