@@ -21,28 +21,28 @@
   --text-muted: #7aada0;
 }
 
-/* Experience — #285A48 */
+/* Experience — #1E4939 */
 [data-theme="1"] {
-  --background: #285A48;
+  --background: #1e4939;
   --foreground: #ffffff;
-  --accent: #8fd5bb;
-  --accent-hover: #a8dfc9;
-  --accent-muted: #5eab90;
+  --accent: #83c9ae;
+  --accent-hover: #9bd5bc;
+  --accent-muted: #50967d;
   --card-bg: rgba(255, 255, 255, 0.08);
   --card-border: rgba(255, 255, 255, 0.13);
-  --text-muted: #9dc8b8;
+  --text-muted: #96bfaf;
 }
 
-/* Projects — #408A71 */
+/* Projects — #2D6955 */
 [data-theme="2"] {
-  --background: #408A71;
+  --background: #2d6955;
   --foreground: #ffffff;
-  --accent: #c8f0e0;
-  --accent-hover: #ddf5ec;
-  --accent-muted: #91d5b8;
+  --accent: #b7e2d0;
+  --accent-hover: #ccecdf;
+  --accent-muted: #7fc6a8;
   --card-bg: rgba(255, 255, 255, 0.1);
   --card-border: rgba(255, 255, 255, 0.16);
-  --text-muted: #b8ddd1;
+  --text-muted: #add4c5;
 }
 
 @theme inline {

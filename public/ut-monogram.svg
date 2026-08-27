@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">UT monogram</title>
+  <rect width="64" height="64" rx="14" fill="#091413"/>
+  <path d="M14 16v20c0 8.3 5.1 13 14 13s14-4.7 14-13V16h-7v19.4c0 4.5-2.4 6.9-7 6.9s-7-2.4-7-6.9V16h-7Z" fill="#fff"/>
+  <path d="M39 16h16v7h-4.5v25.7h-7V23H39v-7Z" fill="#8fd5bb"/>
+</svg>

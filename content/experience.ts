@@ -1,10 +1,11 @@
 export const experience = [
   {
-    title: "Network Production Engineer",
+    title: "Software Engineer",
     company: "Meta",
     period: "2025 - Present",
     description: [
-      "Maintain and improve backbone network infrastructure, ensuring new products are deployed to production safely and reliably at scale.",
+      "Built Sherlock, a continuous probing system that validates live device state against a source of truth across backbone, optical, and data-center networks, covering 5,000 devices across multiple vendors.",
+      "Served as an on-call engineer for Meta's backbone testing infrastructure, owning incident response and the reliability of software qualification and release CI/CD pipelines across globally distributed systems.",
     ],
   },
   {

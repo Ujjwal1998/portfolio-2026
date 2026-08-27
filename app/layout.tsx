@@ -10,7 +10,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Ujjwal Talwar",
-  description: "Network Production Engineer based in London, focused on building reliable, scalable infrastructure.",
+  description: "Software Engineer based in London, focused on building reliable, scalable infrastructure.",
 };
 
 export default function RootLayout({
